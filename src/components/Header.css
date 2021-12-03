@@ -1,0 +1,74 @@
+.header-container {
+  height: 100px;
+  background-color: black;
+  display: flex;
+  padding-left: 30px;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.header-logo {
+  height: 100%;
+  width: 120px;
+}
+
+.header-logo > img {
+  height: 100%;
+  width: 100%;
+}
+
+.header-cart button {
+  height: 40px;
+  width: 80px;
+  cursor: pointer;
+  background-color: whitesmoke;
+  border: none;
+  border-style: none;
+  border-radius: 10px;
+}
+
+.header-cart > button > div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cart-count {
+  font-size: 20px;
+}
+
+.header-cart button:hover {
+  background-color: violet;
+}
+
+.header-container > h2 {
+  color: whitesmoke;
+  letter-spacing: 3px;
+}
+
+.header-img {
+  background: url("https://wallpaperaccess.com/full/462773.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.order-btn {
+  height: 40px;
+
+  cursor: pointer;
+  background-color: black;
+  border: none;
+  border-style: none;
+  border-radius: 10px;
+  font-weight: bold;
+  color: whitesmoke;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+@media (max-width: 450px) {
+  .header-container > h2 {
+    display: none;
+  }
+}
